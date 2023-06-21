@@ -283,18 +283,85 @@ button {
 
 /* --- About start --- */
 
-.about{
+#about {
     padding-top: 210px;
+    padding-bottom: 80px;
+    background: #FAFAFA;
 }
 
-.about-list{
+.about-title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.about-text {
+    max-width: 511px;
+    margin: 0 auto 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.about-list {
     display: flex;
     justify-content: space-between;
+    gap: 38px;
+}
+
+.about-item {
+    max-width: 230px;
+    width: 100%;
+    background-color: white;
+    padding: 30px 40px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
+.about-icon{
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 10px;
+}
 
+.about-number {
+    margin-bottom: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
 
+.about-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #737373;
+
+}
+
+/* --- about end --- */
+
+/* --- advice start --- */
 @media(max-width: 700px) {
     .nav-right .nav-list {
         display: none;
