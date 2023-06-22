@@ -1,0 +1,27 @@
+.footer-bottom {
+    padding: 25px 0;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-p {
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.footer-bottom-list{
+    display: flex;
+    column-gap: 20px;
+}
+
+.bottom-icon a{
+    width: 24px;
+    height: 24px;
+}

@@ -65,3 +65,23 @@
     color: white;
     border: 1px solid  white;
 }
+
+.contacts-item:hover {
+    background-color:#252B42 ;
+    color: white;
+}
+
+.item:hover{
+    background-color: gray;
+    color: black;
+}
+
+.contacts-btn:hover{
+    color: white;
+    border:  1px solid white;
+}
+
+.btn:hover{
+    color: black;
+    border:  1px solid black;
+}
